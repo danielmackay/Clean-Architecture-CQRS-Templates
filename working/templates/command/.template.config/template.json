@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Daniel Mackay",
+    "classifications": [ "Common", "Code", "CQRS" ],
+    "identity": "CleanArchitecture.CQRS.Command",
+    "name": "Clean Architecture CQRS Command",
+    "shortName": "ca-command",
+    "tags": {
+      "language": "C#",
+      "type": "item"
+    },
+    "sourceName": "OperationName",
+    "symbols": {
+        "solutionName": {
+            "type": "parameter",
+            "defaultValue": "SolutionName",
+            "replaces":"SolutionName"
+        }
+    }
+  }
